@@ -1,11 +1,11 @@
-import PageHeader from './components/PageHeader';
-import Home from './components/Home';
+// import HomeContent from "./components/Home";
+import HomeContent from "./components/HomeContent";
+
 
 function App() {
   return (
     <div className='App'>
-        <PageHeader />
-        <Home/>
+        <HomeContent/>
     </div>
   );
 }
